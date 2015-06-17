@@ -15,9 +15,10 @@ public class IdolGroup {
 		String[][] members = {
 				{"GD", "태양", "대성", "탑", "승리"},
 				{"CL", "산다라박", "박봄", "민지"},
-				{"유리", "소진", "민아", "혜리", "그외"}};
+				{"유리", "소진", "민아", "혜리", "그외"}
+		};
 		
-		for(int i=0; i<3; i++)
+		for(int i=0; i<idolGroup.length; i++)
 		{
 			System.out.println("<< "+idolGroup[i]+" 멤버 >>");
 			for(String str:members[i])
