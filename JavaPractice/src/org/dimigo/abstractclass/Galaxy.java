@@ -6,7 +6,7 @@
 //  Copyright (c) 2015년 Enoch-Jung. All rights reserved.
 //
 
-package org.dimigo.inheritance;
+package org.dimigo.abstractclass;
 
 public class Galaxy extends SmartPhone {
 	public Galaxy() {

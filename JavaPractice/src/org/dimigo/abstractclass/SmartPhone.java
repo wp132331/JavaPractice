@@ -6,9 +6,9 @@
 //  Copyright (c) 2015년 Enoch-Jung. All rights reserved.
 //
 
-package org.dimigo.inheritance;
+package org.dimigo.abstractclass;
 
-public class SmartPhone {
+public abstract class SmartPhone {
 	private String model;
 	private String company;
 	private int price;
@@ -27,9 +27,8 @@ public class SmartPhone {
 	public void turnOff() {
 		System.out.println(model+"의 전원을 끕니다.");
 	}
-	public void pay() {
-		System.out.println("현금으로 결제합니다.");
-	}
+	public abstract void pay();
+	
 	public void useSpecialFunction() {
 		if(this instanceof IPhone)
 			((IPhone)this).useAirDrop();
