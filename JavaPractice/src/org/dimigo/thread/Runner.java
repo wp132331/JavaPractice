@@ -33,6 +33,12 @@ public class Runner extends Thread {
 			System.out.println(name + " " + i + " 미터");
 		}
 		
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
 		System.out.println(name + " 골인");
 	}
 	
